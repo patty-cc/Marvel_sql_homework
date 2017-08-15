@@ -151,7 +151,7 @@ INSERT INTO attendances (person_id, movie_id) VALUES (13, 6);
 
 
 -- Return ALL the data in the 'movies' table.
-SELECT * FROM marvel;
+SELECT * FROM movies;
 -- Return ONLY the name column from the 'people' table 3.Oops! Someone at CodeClan spelled Alice's name wrong! Change it to reflect the proper spelling (change 'Alise Rees' to 'Alice Rees').
 SELECT name FROM people;
 UPDATE people SET name = 'Alice Rees' WHERE name = 'Alise Rees';
